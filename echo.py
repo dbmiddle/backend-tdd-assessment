@@ -38,7 +38,7 @@ def main(args):
     if ns.title:
         result = result.title()
 
-    print(result)
+    return result
 
 
 if __name__ == '__main__':
